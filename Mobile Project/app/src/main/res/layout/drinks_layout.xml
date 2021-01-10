@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DrinksLayout">
+    <ImageView
+        android:id="@+id/drinksPicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/drinksName"
+        android:layout_toRightOf="@id/drinksPicture"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#7C7C7C"
+        android:paddingTop="5dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/drinksPrice"
+        android:layout_toRightOf="@id/drinksPicture"
+        android:layout_below="@+id/drinksName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="5dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/addOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drinksName"
+        android:layout_alignParentRight="true"
+        android:text="+Add"/>
+
+</RelativeLayout>

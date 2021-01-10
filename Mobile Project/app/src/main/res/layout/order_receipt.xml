@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF9800"
+        android:text="My Order"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/MainMenuButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Main Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/Information"
+        android:layout_below="@id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="15pt"
+        android:textColor="#FF9800"
+        android:text="Your Order Is Completed" />
+
+    <TextView
+        android:id="@+id/Balance"
+        android:layout_below="@id/Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="10pt"
+        android:textColor="#FF9800"
+        android:text="Thank you" />
+
+    <TextView
+        android:id="@+id/OrderName"
+        android:layout_below="@id/Balance"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:text="Item Name"
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/OrderPrice"
+        android:layout_below="@id/OrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Price"
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/OrderQuantity"
+        android:layout_below="@id/OrderPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Quantity"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_below="@id/Balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:text="Teh Botol"
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/Price"
+        android:layout_below="@id/OrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:text="6000"
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/Rp"
+        android:layout_below="@id/OrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/Price"
+        android:layout_marginTop="5dp"
+        android:text="Rp."
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_below="@id/OrderPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:text="1"
+        android:textSize="15pt"/>
+
+
+</RelativeLayout>

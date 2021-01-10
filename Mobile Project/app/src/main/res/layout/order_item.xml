@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF9800"
+        android:text="Order"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/myOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="30dp"
+        android:text="My Order" />
+    <TextView
+        android:id="@+id/OrderName"
+        android:layout_below="@id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:text="Item Name"
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/OrderPrice"
+        android:layout_below="@id/OrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Price"
+        android:textSize="15pt"/>
+    <TextView
+        android:id="@+id/OrderQuantity"
+        android:layout_below="@id/OrderPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Quantity"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/ItemName"
+        android:layout_below="@id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:text="Item"
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/ItemPrice"
+        android:layout_below="@id/ItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:text="Price"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:id="@+id/ItemQuantity"
+        android:layout_below="@id/ItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:text="Quantity"
+        android:textSize="10pt"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ezyfoodyproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Binus EzyFoody"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EzyFoodyProject">
+        <activity android:name=".DrinksStock"></activity>
+        <activity android:name=".OrderReceipt"></activity>
+        <activity android:name=".MyOrder"></activity>
+        <activity android:name=".DrinksLayout"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FoodStock" />
+        <activity android:name=".SnackStock"/>
+        <activity android:name=".TopUp"/>
+        <activity android:name=".orderHistory"/>
+    </application>
+
+</manifest>
